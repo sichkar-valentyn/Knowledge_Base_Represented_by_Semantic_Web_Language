@@ -1,0 +1,2 @@
+$ cat .gitattributes
+*.owl linguist-language=Web Ontology Language
