@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:properties="http://car-assistant.ru/properties#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://car-assistant.ru/properties#P1 -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#P1"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P2 -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#P2"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P3 -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#P3"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P4 -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#P4"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P5 -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#P5"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#max -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#max"/>
+    
+
+
+    <!-- http://car-assistant.ru/properties#min -->
+
+    <owl:AnnotationProperty rdf:about="http://car-assistant.ru/properties#min"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://car-assistant.ru/classes#Interval -->
+
+    <owl:Class rdf:about="http://car-assistant.ru/classes#Interval"/>
+    
+
+
+    <!-- http://car-assistant.ru/classes#State -->
+
+    <owl:Class rdf:about="http://car-assistant.ru/classes#State"/>
+    
+
+
+    <!-- https://www.w3.org/2002/07/owl#Class -->
+
+    <owl:Class rdf:about="https://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- https://www.w3.org/2002/07/owl#DatatypeProperty -->
+
+    <owl:Class rdf:about="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    
+
+
+    <!-- https://www.w3.org/2002/07/owl#ObjectProperty -->
+
+    <owl:Class rdf:about="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://car-assistant.ru/classes#Interval -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/classes#Interval">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/classes#State -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/classes#State">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Alarm -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Alarm">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#State"/>
+        <properties:P1 rdf:resource="http://car-assistant.ru/instances#Int_A_1"/>
+        <properties:P2 rdf:resource="http://car-assistant.ru/instances#Int_A_2"/>
+        <properties:P3 rdf:resource="http://car-assistant.ru/instances#Int_A_3"/>
+        <properties:P4 rdf:resource="http://car-assistant.ru/instances#Int_A_4"/>
+        <properties:P5 rdf:resource="http://car-assistant.ru/instances#Int_A_5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_A_1 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_A_1">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">880</properties:min>
+        <rdfs:comment>Alarm by Sensor #1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_A_2 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_A_2">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">605</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</properties:min>
+        <rdfs:comment>Alarm by Sensor #2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_A_3 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_A_3">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">590</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</properties:min>
+        <rdfs:comment>Alarm by Sensor #3</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_A_4 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_A_4">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">630</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</properties:min>
+        <rdfs:comment>Alarm by Sensor #4</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_A_5 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_A_5">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695</properties:min>
+        <rdfs:comment>Alarm by Sensor #5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_W_1 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_W_1">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">879</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</properties:min>
+        <rdfs:comment>Warning by Sensor #1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_W_2 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_W_2">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</properties:min>
+        <rdfs:comment>Warning by Sensor #2</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_W_3 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_W_3">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</properties:min>
+        <rdfs:comment>Warning by Sensor #3</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_W_4 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_W_4">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">599</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</properties:min>
+        <rdfs:comment>Warning by Sensor #4</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Int_W_5 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Int_W_5">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <properties:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694</properties:max>
+        <properties:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651</properties:min>
+        <rdfs:comment>Warning by Sensor #5</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/instances#Warning -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/instances#Warning">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#State"/>
+        <properties:P1 rdf:resource="http://car-assistant.ru/instances#Int_W_1"/>
+        <properties:P2 rdf:resource="http://car-assistant.ru/instances#Int_W_2"/>
+        <properties:P3 rdf:resource="http://car-assistant.ru/instances#Int_W_3"/>
+        <properties:P4 rdf:resource="http://car-assistant.ru/instances#Int_W_4"/>
+        <properties:P5 rdf:resource="http://car-assistant.ru/instances#Int_W_5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P1 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#P1">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P2 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#P2">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P3 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#P3">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P4 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#P4">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#P5 -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#P5">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#max -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#max">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://car-assistant.ru/properties#min -->
+
+    <owl:NamedIndividual rdf:about="http://car-assistant.ru/properties#min">
+        <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

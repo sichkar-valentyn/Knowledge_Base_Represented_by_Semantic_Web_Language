@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://car-assistant.ru/properties#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="http://car-assistant.ru/classes#State">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/instances#Alarm">
+    <rdf:type rdf:resource="http://car-assistant.ru/classes#State"/>
+    <ns0:P1>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_A_1">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">880</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</ns0:max>
+        <rdfs:comment>Alarm by Sensor #1</rdfs:comment>
+      </rdf:Description>
+    </ns0:P1>
+
+    <ns0:P2>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_A_2">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">605</ns0:max>
+        <rdfs:comment>Alarm by Sensor #2</rdfs:comment>
+      </rdf:Description>
+    </ns0:P2>
+
+    <ns0:P3>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_A_3">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">590</ns0:max>
+        <rdfs:comment>Alarm by Sensor #3</rdfs:comment>
+      </rdf:Description>
+    </ns0:P3>
+
+    <ns0:P4>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_A_4">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">630</ns0:max>
+        <rdfs:comment>Alarm by Sensor #4</rdfs:comment>
+      </rdf:Description>
+    </ns0:P4>
+
+    <ns0:P5>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_A_5">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</ns0:max>
+        <rdfs:comment>Alarm by Sensor #5</rdfs:comment>
+      </rdf:Description>
+    </ns0:P5>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/instances#Warning">
+    <rdf:type rdf:resource="http://car-assistant.ru/classes#State"/>
+    <ns0:P1>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_W_1">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">725</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">879</ns0:max>
+        <rdfs:comment>Warning by Sensor #1</rdfs:comment>
+      </rdf:Description>
+    </ns0:P1>
+
+    <ns0:P2>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_W_2">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544</ns0:max>
+        <rdfs:comment>Warning by Sensor #2</rdfs:comment>
+      </rdf:Description>
+    </ns0:P2>
+
+    <ns0:P3>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_W_3">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409</ns0:max>
+        <rdfs:comment>Warning by Sensor #3</rdfs:comment>
+      </rdf:Description>
+    </ns0:P3>
+
+    <ns0:P4>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_W_4">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">599</ns0:max>
+        <rdfs:comment>Warning by Sensor #4</rdfs:comment>
+      </rdf:Description>
+    </ns0:P4>
+
+    <ns0:P5>
+      <rdf:Description rdf:about="http://car-assistant.ru/instances#Int_W_5">
+        <rdf:type rdf:resource="http://car-assistant.ru/classes#Interval"/>
+        <ns0:min rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651</ns0:min>
+        <ns0:max rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694</ns0:max>
+        <rdfs:comment>Warning by Sensor #5</rdfs:comment>
+      </rdf:Description>
+    </ns0:P5>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#P1">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#P2">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#P3">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#P4">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#P5">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/classes#Interval">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#min">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://car-assistant.ru/properties#max">
+    <rdf:type rdf:resource="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+
+</rdf:RDF>

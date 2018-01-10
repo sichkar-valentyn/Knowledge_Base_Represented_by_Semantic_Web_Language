@@ -1,0 +1,216 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://car-assistant.ru/classes#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://car-assistant.ru/classes#State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Alarm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#State" ],
+  "http://car-assistant.ru/properties#P1" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_A_1"
+  } ],
+  "http://car-assistant.ru/properties#P2" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_A_2"
+  } ],
+  "http://car-assistant.ru/properties#P3" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_A_3"
+  } ],
+  "http://car-assistant.ru/properties#P4" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_A_4"
+  } ],
+  "http://car-assistant.ru/properties#P5" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_A_5"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_A_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "900"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "880"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alarm by Sensor #1"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_A_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "605"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "545"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alarm by Sensor #2"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_A_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "590"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "410"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alarm by Sensor #3"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_A_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "630"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "600"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alarm by Sensor #4"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_A_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "720"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "695"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alarm by Sensor #5"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_W_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "879"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "725"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warning by Sensor #1"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_W_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "544"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "430"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warning by Sensor #2"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_W_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "409"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "360"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warning by Sensor #3"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_W_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "599"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "570"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warning by Sensor #4"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Int_W_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#Interval" ],
+  "http://car-assistant.ru/properties#max" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "694"
+  } ],
+  "http://car-assistant.ru/properties#min" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "651"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Warning by Sensor #5"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/instances#Warning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://car-assistant.ru/classes#State" ],
+  "http://car-assistant.ru/properties#P1" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_W_1"
+  } ],
+  "http://car-assistant.ru/properties#P2" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_W_2"
+  } ],
+  "http://car-assistant.ru/properties#P3" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_W_3"
+  } ],
+  "http://car-assistant.ru/properties#P4" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_W_4"
+  } ],
+  "http://car-assistant.ru/properties#P5" : [ {
+    "@id" : "http://car-assistant.ru/instances#Int_W_5"
+  } ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#P1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#P2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#P3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#P4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#P5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#max",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://car-assistant.ru/properties#min",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://www.w3.org/2002/07/owl#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.w3.org/2002/07/owl#DatatypeProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.w3.org/2002/07/owl#ObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

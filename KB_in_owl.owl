@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/classes#Interval"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#min"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/2002/07/owl#Class"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_4"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_3"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_2"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#max"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P5"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P4"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/classes#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://car-assistant.ru/classes#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_3"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Warning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Alarm"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#Class"/>
+        <NamedIndividual IRI="http://car-assistant.ru/classes#Interval"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#Class"/>
+        <NamedIndividual IRI="http://car-assistant.ru/classes#State"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#State"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Alarm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_A_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#Interval"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Int_W_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://car-assistant.ru/classes#State"/>
+        <NamedIndividual IRI="http://car-assistant.ru/instances#Warning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#P5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <NamedIndividual IRI="http://car-assistant.ru/properties#min"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P1"/>
+        <IRI>http://car-assistant.ru/instances#Alarm</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_A_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P2"/>
+        <IRI>http://car-assistant.ru/instances#Alarm</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_A_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P3"/>
+        <IRI>http://car-assistant.ru/instances#Alarm</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_A_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P4"/>
+        <IRI>http://car-assistant.ru/instances#Alarm</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_A_4</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P5"/>
+        <IRI>http://car-assistant.ru/instances#Alarm</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_A_5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">880</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alarm by Sensor #1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">605</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">545</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alarm by Sensor #2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">590</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">410</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alarm by Sensor #3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">630</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alarm by Sensor #4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">720</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">695</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_A_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alarm by Sensor #5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">879</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warning by Sensor #1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">544</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">430</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warning by Sensor #2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">409</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">360</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warning by Sensor #3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">599</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">570</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warning by Sensor #4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#max"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">694</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#min"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://car-assistant.ru/instances#Int_W_5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Warning by Sensor #5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P1"/>
+        <IRI>http://car-assistant.ru/instances#Warning</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_W_1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P2"/>
+        <IRI>http://car-assistant.ru/instances#Warning</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_W_2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P3"/>
+        <IRI>http://car-assistant.ru/instances#Warning</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_W_3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P4"/>
+        <IRI>http://car-assistant.ru/instances#Warning</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_W_4</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://car-assistant.ru/properties#P5"/>
+        <IRI>http://car-assistant.ru/instances#Warning</IRI>
+        <IRI>http://car-assistant.ru/instances#Int_W_5</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

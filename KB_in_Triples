@@ -1,0 +1,61 @@
+<http://car-assistant.ru/classes#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://car-assistant.ru/instances#Alarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#State> .
+<http://car-assistant.ru/instances#Alarm> <http://car-assistant.ru/properties#P1> <http://car-assistant.ru/instances#Int_A_1> .
+<http://car-assistant.ru/instances#Alarm> <http://car-assistant.ru/properties#P2> <http://car-assistant.ru/instances#Int_A_2> .
+<http://car-assistant.ru/instances#Alarm> <http://car-assistant.ru/properties#P3> <http://car-assistant.ru/instances#Int_A_3> .
+<http://car-assistant.ru/instances#Alarm> <http://car-assistant.ru/properties#P4> <http://car-assistant.ru/instances#Int_A_4> .
+<http://car-assistant.ru/instances#Alarm> <http://car-assistant.ru/properties#P5> <http://car-assistant.ru/instances#Int_A_5> .
+<http://car-assistant.ru/instances#Warning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#State> .
+<http://car-assistant.ru/instances#Warning> <http://car-assistant.ru/properties#P1> <http://car-assistant.ru/instances#Int_W_1> .
+<http://car-assistant.ru/instances#Warning> <http://car-assistant.ru/properties#P2> <http://car-assistant.ru/instances#Int_W_2> .
+<http://car-assistant.ru/instances#Warning> <http://car-assistant.ru/properties#P3> <http://car-assistant.ru/instances#Int_W_3> .
+<http://car-assistant.ru/instances#Warning> <http://car-assistant.ru/properties#P4> <http://car-assistant.ru/instances#Int_W_4> .
+<http://car-assistant.ru/instances#Warning> <http://car-assistant.ru/properties#P5> <http://car-assistant.ru/instances#Int_W_5> .
+<http://car-assistant.ru/properties#P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/properties#P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/properties#P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/properties#P4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/properties#P5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/classes#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<http://car-assistant.ru/properties#min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://car-assistant.ru/properties#max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://car-assistant.ru/instances#Int_W_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_W_1> <http://car-assistant.ru/properties#min> "725"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_1> <http://car-assistant.ru/properties#max> "879"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Warning by Sensor #1" .
+<http://car-assistant.ru/instances#Int_W_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_W_2> <http://car-assistant.ru/properties#min> "430"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_2> <http://car-assistant.ru/properties#max> "544"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Warning by Sensor #2" .
+<http://car-assistant.ru/instances#Int_W_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_W_3> <http://car-assistant.ru/properties#min> "360"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_3> <http://car-assistant.ru/properties#max> "409"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Warning by Sensor #3" .
+<http://car-assistant.ru/instances#Int_W_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_W_4> <http://car-assistant.ru/properties#min> "570"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_4> <http://car-assistant.ru/properties#max> "599"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Warning by Sensor #4" .
+<http://car-assistant.ru/instances#Int_W_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_W_5> <http://car-assistant.ru/properties#min> "651"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_5> <http://car-assistant.ru/properties#max> "694"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_W_5> <http://www.w3.org/2000/01/rdf-schema#comment> "Warning by Sensor #5" .
+<http://car-assistant.ru/instances#Int_A_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_A_1> <http://car-assistant.ru/properties#min> "880"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_1> <http://car-assistant.ru/properties#max> "900"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Alarm by Sensor #1" .
+<http://car-assistant.ru/instances#Int_A_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_A_2> <http://car-assistant.ru/properties#min> "545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_2> <http://car-assistant.ru/properties#max> "605"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Alarm by Sensor #2" .
+<http://car-assistant.ru/instances#Int_A_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_A_3> <http://car-assistant.ru/properties#min> "410"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_3> <http://car-assistant.ru/properties#max> "590"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Alarm by Sensor #3" .
+<http://car-assistant.ru/instances#Int_A_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_A_4> <http://car-assistant.ru/properties#min> "600"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_4> <http://car-assistant.ru/properties#max> "630"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Alarm by Sensor #4" .
+<http://car-assistant.ru/instances#Int_A_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://car-assistant.ru/classes#Interval> .
+<http://car-assistant.ru/instances#Int_A_5> <http://car-assistant.ru/properties#min> "695"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_5> <http://car-assistant.ru/properties#max> "720"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://car-assistant.ru/instances#Int_A_5> <http://www.w3.org/2000/01/rdf-schema#comment> "Alarm by Sensor #5" .

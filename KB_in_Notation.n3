@@ -1,0 +1,87 @@
+@prefix ns0: <http://car-assistant.ru/properties#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://car-assistant.ru/classes#State> a <https://www.w3.org/2002/07/owl#Class> .
+<http://car-assistant.ru/instances#Alarm>
+  a <http://car-assistant.ru/classes#State> ;
+  ns0:P1 <http://car-assistant.ru/instances#Int_A_1> ;
+  ns0:P2 <http://car-assistant.ru/instances#Int_A_2> ;
+  ns0:P3 <http://car-assistant.ru/instances#Int_A_3> ;
+  ns0:P4 <http://car-assistant.ru/instances#Int_A_4> ;
+  ns0:P5 <http://car-assistant.ru/instances#Int_A_5> .
+
+<http://car-assistant.ru/instances#Warning>
+  a <http://car-assistant.ru/classes#State> ;
+  ns0:P1 <http://car-assistant.ru/instances#Int_W_1> ;
+  ns0:P2 <http://car-assistant.ru/instances#Int_W_2> ;
+  ns0:P3 <http://car-assistant.ru/instances#Int_W_3> ;
+  ns0:P4 <http://car-assistant.ru/instances#Int_W_4> ;
+  ns0:P5 <http://car-assistant.ru/instances#Int_W_5> .
+
+ns0:P1 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
+ns0:P2 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
+ns0:P3 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
+ns0:P4 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
+ns0:P5 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://car-assistant.ru/classes#Interval> a <https://www.w3.org/2002/07/owl#Class> .
+ns0:min a <https://www.w3.org/2002/07/owl#DatatypeProperty> .
+ns0:max a <https://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://car-assistant.ru/instances#Int_W_1>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 725 ;
+  ns0:max 879 ;
+  rdfs:comment "Warning by Sensor #1" .
+
+<http://car-assistant.ru/instances#Int_W_2>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 430 ;
+  ns0:max 544 ;
+  rdfs:comment "Warning by Sensor #2" .
+
+<http://car-assistant.ru/instances#Int_W_3>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 360 ;
+  ns0:max 409 ;
+  rdfs:comment "Warning by Sensor #3" .
+
+<http://car-assistant.ru/instances#Int_W_4>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 570 ;
+  ns0:max 599 ;
+  rdfs:comment "Warning by Sensor #4" .
+
+<http://car-assistant.ru/instances#Int_W_5>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 651 ;
+  ns0:max 694 ;
+  rdfs:comment "Warning by Sensor #5" .
+
+<http://car-assistant.ru/instances#Int_A_1>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 880 ;
+  ns0:max 900 ;
+  rdfs:comment "Alarm by Sensor #1" .
+
+<http://car-assistant.ru/instances#Int_A_2>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 545 ;
+  ns0:max 605 ;
+  rdfs:comment "Alarm by Sensor #2" .
+
+<http://car-assistant.ru/instances#Int_A_3>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 410 ;
+  ns0:max 590 ;
+  rdfs:comment "Alarm by Sensor #3" .
+
+<http://car-assistant.ru/instances#Int_A_4>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 600 ;
+  ns0:max 630 ;
+  rdfs:comment "Alarm by Sensor #4" .
+
+<http://car-assistant.ru/instances#Int_A_5>
+  a <http://car-assistant.ru/classes#Interval> ;
+  ns0:min 695 ;
+  ns0:max 720 ;
+  rdfs:comment "Alarm by Sensor #5" .
