@@ -1,0 +1,92 @@
+@prefix carc: <http://car-assistant.ru/classes#>.
+@prefix carp: <http://car-assistant.ru/properties#>.
+@prefix cari: <http://car-assistant.ru/instances#>.
+@Prefix owl: <https://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+carc:State a owl:Class.
+
+cari:Alarm a carc:State.
+cari:Warning a carc:State.
+
+carp:P1 a owl:ObjectProperty.
+carp:P2 a owl:ObjectProperty.
+carp:P3 a owl:ObjectProperty.
+carp:P4 a owl:ObjectProperty.
+carp:P5 a owl:ObjectProperty.
+
+carc:Interval a owl:Class.
+
+carp:min a owl:DatatypeProperty.
+carp:max a owl:DatatypeProperty.
+
+cari:Int_W_1 a carc:Interval.
+cari:Warning carp:P1 cari:Int_W_1.
+
+cari:Int_W_2 a carc:Interval.
+cari:Warning carp:P2 cari:Int_W_2.
+
+cari:Int_W_3 a carc:Interval.
+cari:Warning carp:P3 cari:Int_W_3.
+
+cari:Int_W_4 a carc:Interval.
+cari:Warning carp:P4 cari:Int_W_4.
+
+cari:Int_W_5 a carc:Interval.
+cari:Warning carp:P5 cari:Int_W_5.
+
+cari:Int_W_1 carp:min 725;
+			 carp:max 879;
+     rdfs:comment "Warning by Sensor #1".
+
+cari:Int_W_2 carp:min 430;
+			 carp:max 544;
+     rdfs:comment "Warning by Sensor #2".
+		 
+cari:Int_W_3 carp:min 360;
+			 carp:max 409;
+     rdfs:comment "Warning by Sensor #3".
+		 
+cari:Int_W_4 carp:min 570;
+             carp:max 599;
+     rdfs:comment "Warning by Sensor #4".
+		 
+cari:Int_W_5 carp:min 651;
+			 carp:max 694;
+     rdfs:comment "Warning by Sensor #5".
+		 
+cari:Int_A_1 a carc:Interval.
+cari:Alarm carp:P1 cari:Int_A_1.
+
+cari:Int_A_2 a carc:Interval.
+cari:Alarm carp:P2 cari:Int_A_2.
+
+cari:Int_A_3 a carc:Interval.
+cari:Alarm carp:P3 cari:Int_A_3.
+
+cari:Int_A_4 a carc:Interval.
+cari:Alarm carp:P4 cari:Int_A_4.
+
+cari:Int_A_5 a carc:Interval.
+cari:Alarm carp:P5 cari:Int_A_5.
+
+cari:Int_A_1 carp:min 880;
+			 carp:max 900;
+     rdfs:comment "Alarm by Sensor #1".
+
+cari:Int_A_2 carp:min 545;
+			 carp:max 605;
+	 rdfs:comment "Alarm by Sensor #2".
+		 
+cari:Int_A_3 carp:min 410;
+			 carp:max 590;
+	 rdfs:comment "Alarm by Sensor #3".
+		 
+cari:Int_A_4 carp:min 600;
+			 carp:max 630;
+	 rdfs:comment "Alarm by Sensor #4".
+		 
+cari:Int_A_5 carp:min 695;
+			 carp:max 720;
+	 rdfs:comment "Alarm by Sensor #5".
+		 
