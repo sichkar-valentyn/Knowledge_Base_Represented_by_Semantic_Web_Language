@@ -1,11 +1,11 @@
 # Knowledge Base Represented by Semantic Web Language
-Semantic Web languages OWL and RDF for knowledge representation
+Semantic Web languages OWL and RDF for knowledge representation of Alarm-Warning System.
 
 ### Reference to:
 [1] Valentyn N Sichkar. Semantic Web languages OWL and RDF for knowledge representation // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Knowledge_Base_Represented_by_Semantic_Web_Language (date of access: XX.XX.XXXX)
 
 ## Description
-The Semantic Web languages OWL and RDF enable knowledge representation by means of a Knowledge Base, i.e., a knowledge repository - not just a database. Knowledge base consists of two parts: ontology and individuals, i.e., instances of classes in the ontology. 
+The Semantic Web languages OWL and RDF enable knowledge representation by means of a Knowledge Base, i.e., a knowledge repository - not just a database. Knowledge base consists of two parts: ontology and individuals, i.e., instances of classes in the ontology. Created Alarm-Warning System shows the statements of the System according to the values of sensors in given time.
 
 ## Concept maps for organizing and representing knowledge
 Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
