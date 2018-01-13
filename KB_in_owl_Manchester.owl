@@ -4,62 +4,44 @@ Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 Prefix: xml: <http://www.w3.org/XML/1998/namespace>
 Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
-
 Ontology: <http://www.semanticweb.org/valentyn/ontologies/2018/0/untitled-ontology-12>
 
-
 AnnotationProperty: <http://car-assistant.ru/properties#P1>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#P2>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#P3>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#P4>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#P5>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#max>
-
     
 AnnotationProperty: <http://car-assistant.ru/properties#min>
-
     
 AnnotationProperty: rdfs:comment
-
     
 Datatype: rdf:PlainLiteral
-
     
 Datatype: xsd:integer
-
     
 Class: <http://car-assistant.ru/classes#Interval>
-
     
 Class: <http://car-assistant.ru/classes#State>
-
     
 Class: <https://www.w3.org/2002/07/owl#Class>
-
     
 Class: <https://www.w3.org/2002/07/owl#DatatypeProperty>
-
     
 Class: <https://www.w3.org/2002/07/owl#ObjectProperty>
-
     
 Individual: <http://car-assistant.ru/classes#Interval>
 
     Types: 
         <https://www.w3.org/2002/07/owl#Class>
-    
-    
+   
+   
 Individual: <http://car-assistant.ru/classes#State>
 
     Types: 
@@ -242,5 +224,3 @@ Individual: <http://car-assistant.ru/properties#min>
 
     Types: 
         <https://www.w3.org/2002/07/owl#DatatypeProperty>
-    
-    
