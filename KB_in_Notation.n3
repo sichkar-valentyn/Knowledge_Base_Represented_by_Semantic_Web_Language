@@ -26,6 +26,7 @@ ns0:P5 a <https://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://car-assistant.ru/classes#Interval> a <https://www.w3.org/2002/07/owl#Class> .
 ns0:min a <https://www.w3.org/2002/07/owl#DatatypeProperty> .
 ns0:max a <https://www.w3.org/2002/07/owl#DatatypeProperty> .
+
 <http://car-assistant.ru/instances#Int_W_1>
   a <http://car-assistant.ru/classes#Interval> ;
   ns0:min 725 ;
