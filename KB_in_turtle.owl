@@ -15,30 +15,23 @@
 ###  http://car-assistant.ru/properties#P1
 <http://car-assistant.ru/properties#P1> rdf:type owl:AnnotationProperty .
 
-
 ###  http://car-assistant.ru/properties#P2
 <http://car-assistant.ru/properties#P2> rdf:type owl:AnnotationProperty .
-
 
 ###  http://car-assistant.ru/properties#P3
 <http://car-assistant.ru/properties#P3> rdf:type owl:AnnotationProperty .
 
-
 ###  http://car-assistant.ru/properties#P4
 <http://car-assistant.ru/properties#P4> rdf:type owl:AnnotationProperty .
-
 
 ###  http://car-assistant.ru/properties#P5
 <http://car-assistant.ru/properties#P5> rdf:type owl:AnnotationProperty .
 
-
 ###  http://car-assistant.ru/properties#max
 <http://car-assistant.ru/properties#max> rdf:type owl:AnnotationProperty .
 
-
 ###  http://car-assistant.ru/properties#min
 <http://car-assistant.ru/properties#min> rdf:type owl:AnnotationProperty .
-
 
 #################################################################
 #    Classes
@@ -47,22 +40,17 @@
 ###  http://car-assistant.ru/classes#Interval
 <http://car-assistant.ru/classes#Interval> rdf:type owl:Class .
 
-
 ###  http://car-assistant.ru/classes#State
 <http://car-assistant.ru/classes#State> rdf:type owl:Class .
-
 
 ###  https://www.w3.org/2002/07/owl#Class
 <https://www.w3.org/2002/07/owl#Class> rdf:type owl:Class .
 
-
 ###  https://www.w3.org/2002/07/owl#DatatypeProperty
 <https://www.w3.org/2002/07/owl#DatatypeProperty> rdf:type owl:Class .
 
-
 ###  https://www.w3.org/2002/07/owl#ObjectProperty
 <https://www.w3.org/2002/07/owl#ObjectProperty> rdf:type owl:Class .
-
 
 #################################################################
 #    Individuals
