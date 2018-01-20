@@ -86,3 +86,4 @@ ns0:max a <https://www.w3.org/2002/07/owl#DatatypeProperty> .
   ns0:min 695 ;
   ns0:max 720 ;
   rdfs:comment "Alarm by Sensor #5" .
+
