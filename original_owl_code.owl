@@ -35,7 +35,7 @@ cari:Warning carp:P4 cari:Int_W_4.
 cari:Int_W_5 a carc:Interval.
 cari:Warning carp:P5 cari:Int_W_5.
 
-cari:Int_W_1 carp:min 725;
+cari:Int_W_1 carp:min 700;
 			 carp:max 879;
      rdfs:comment "Warning by Sensor #1".
 
