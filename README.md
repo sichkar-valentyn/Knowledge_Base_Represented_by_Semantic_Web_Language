@@ -1,5 +1,5 @@
 # Knowledge Base Represented by Semantic Web Language
-Semantic Web languages OWL and RDF for knowledge representation of Alarm-Warning System.
+Semantic Web languages OWL and RDF for Knowledge representation of Alarm-Warning System.
 
 ### Reference to:
 [1] Valentyn N Sichkar. Semantic Web languages OWL and RDF for knowledge representation // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Knowledge_Base_Represented_by_Semantic_Web_Language (date of access: XX.XX.XXXX)
