@@ -5,7 +5,7 @@ Semantic Web languages OWL and RDF for Knowledge representation of Alarm-Warning
 [1] Valentyn N Sichkar. Semantic Web languages OWL and RDF for knowledge representation // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Knowledge_Base_Represented_by_Semantic_Web_Language (date of access: XX.XX.XXXX)
 
 ## Description
-The Semantic Web languages OWL and RDF enable knowledge representation by means of a Knowledge Base, i.e., a knowledge repository - not just a database. Knowledge base consists of two parts: ontology and individuals, i.e., instances of classes in the ontology. Created Alarm-Warning System shows the statements of the System according to the values of sensors in given time.
+The Semantic Web languages OWL and RDF enable knowledge representation by means of a Knowledge Base, i.e., a knowledge repository - not just a database. Knowledge Base consists of two parts: ontology and individuals, i.e., instances of classes in the ontology. Created Alarm-Warning System shows the statements of the System according to the values of sensors in given time.
 <br/>Types of used notations:
 * N3
 * json
