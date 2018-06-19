@@ -27,7 +27,7 @@ Experimental results (figures on this page):
 
 <br/>
 Theory (on this page):
-_Coming soon_
+* _Coming soon_
 
 
 ### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
