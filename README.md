@@ -22,14 +22,14 @@ Codes (it'll send you to appropriate file):
 <br/>
 Theory and Experimental results (text and figures on this page):
 
-* <a href="#Concept maps for organizing and representing knowledge">Concept maps for organizing and representing knowledge</a>
+* <a href="#Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 * <a href="#Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
-## <a name="Concept maps for organizing and representing knowledge">Concept maps for organizing and representing knowledge</a>
+### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
 ![Result](images/Knowledge_Base_by_Cmap.png)
 
-## <a name="Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
+### <a name="Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 ![Result](images/Knowledge_Base_by_EasyRDF_Converter.png)
 
 ## MIT License
