@@ -17,6 +17,12 @@ The Semantic Web languages OWL and RDF enable knowledge representation by means 
 * turtle
 
 ## Content
+Codes (it'll send you to appropriate file):
+* [N3_Notation](https://github.com/sichkar-valentyn/Knowledge_Base_Represented_by_Semantic_Web_Language/blob/master/KB_in_Notation.n3)
+
+<br/>
+Theory and Experimental results (text and figures on this page):
+
 * <a href="#Concept maps for organizing and representing knowledge">Concept maps for organizing and representing knowledge</a>
 * <a href="#Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
