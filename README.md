@@ -28,6 +28,7 @@ Experimental results (figures on this page):
 <br/>
 Theory (on this page):
 
+* Semantic Web Stack
 * _Coming soon_
 
 
