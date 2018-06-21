@@ -37,9 +37,8 @@ Theory (on this page):
 * Notations we can use in RDF
 * Terse RDF triple language (TURTLE) notation
 * SPARQL Protocol and RDF Query Language as protocol, data transmition schema
-* 
-* 
-* _Coming soon_
+* SPARQL language, types of query 
+
 
 
 ### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
