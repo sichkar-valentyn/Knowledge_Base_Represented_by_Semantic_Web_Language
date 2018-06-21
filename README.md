@@ -40,7 +40,6 @@ Theory (on this page):
 * SPARQL language, types of query 
 
 
-
 ### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
 ![Result](images/Knowledge_Base_by_Cmap.png)
