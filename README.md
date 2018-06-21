@@ -29,6 +29,16 @@ Experimental results (figures on this page):
 Theory (on this page):
 
 * Semantic Web Stack
+* Uniform Resource Identifier
+* Resource Description Framework RDF
+* Resource Description Framework Schema RDFS
+* Web ontology language
+* Descriptive logic and its application
+* Notations we can use in RDF
+* Terse RDF triple language (TURTLE) notation
+* SPARQL Protocol and RDF Query Language as protocol, data transmition schema
+* 
+* 
 * _Coming soon_
 
 
