@@ -144,25 +144,127 @@ At the moment, the second version of the OWL language is considered to be releva
 
 
 ### <a name="Descriptive logic and its application">Descriptive logic and its application</a>
-Text
+Description logics (DL) are a family of formal knowledge representation languages. A DL simulates concepts, roles and individuals, and their relationships. The fundamental modeling concept of a DL is the axiom - a logical statement relating roles and concepts. The basic formalism of DL by way of a prototypical example -  it first introduces the formalism for describing concepts (i.e., the description language), and then defines the terminological (TBox) and the assertional (ABox) formalisms. Next, it introduces the basic reasoning problems and shows how they are related to each other. Finally, it defines the rule language that is available in many of the implemented DL systems.
+
 ![Descriptive logic and its application](images/Descriptive_logic_and_its_application.png)
 
+Architecture of a knowledge representation system based on Description Logics is shown on the figure above.
+
+DLs are used in artificial intelligence to describe and reason about the relevant concepts of an application domain (known as terminological knowledge). It is of particular importance in providing a logical formalism for ontologies and the Semantic Web. OWL and its profile is based on DLs. The most notable application of DLs and OWL is in biomedical informatics where DL assists in the codification of biomedical knowledge.
+
+Also, DLs have been used in a range of applications, e.g., configuration, and reasoning with database schemas and queries. They are, however, best known as the basis for ontology languages such as OIL, DAML+OIL and OWL. As well as DLs providing the formal underpinnings for these languages (i.e., a declarative semantics), DL systems are widely used to provide computational services for a rapidly expanding range of ontology tools and applications.
+
+
 ### <a name="Notations we can use in RDF">Notations we can use in RDF</a>
-Text
-![Notations we can use in RDF](images/Notations_we_can_use_in_RDF.png)
+In computer science, in the context of data storage, serialization is the process of translating data structures or object state into a format that can be stored (for example, in a file or memory buffer) or transmitted (for example, across a network connection link) and reconstructed later (possibly in a different computer environment). When the resulting series of bits is reread according to the serialization format, it can be used to create a semantically identical clone of the original object.
+
+Several common serialization formats (so called Notations) are in use for Resource Description Framework (RDF), including:
+
+* Turtle - a compact, human-friendly format.
+* N-Triples - a very simple, easy-to-parse, line-based format that is not as compact as Turtle.
+* N-Quads - a superset of N-Triples, for serializing multiple RDF graphs.
+* JSON-LD - a JSON-based serialization.
+* N3 or Notation3 - a non-standard serialization that is very similar to Turtle, but has some additional features, such as the ability to define inference rules.
+* RDF/XML - an XML-based syntax that was the first standard format for serializing RDF.
+* RDF/JSON - an alternative syntax for expressing RDF triples using a simple JSON notation.
+
+Let’s consider example with Turtle notation.
+
+Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using "triples", each of which consists of a subject, a predicate, and an object. Each of those items is expressed as a Web URI.
+The following example defines 3 prefixes ("rdf", "dc" and "ex"), and uses them in expressing a statement about the editorship of the RDF/XML document:
+
+@prefix rdf: <http://ex.org/rdf#> .
+<br/>@prefix dc: <http://ex.org/dc#> .
+<br/>@prefix ex: <http://ex.org/people#> .
+<br/>ex:me rdf:type ex:Person .
+<br/>ex:me dc:title "Tony Benn" .
+<br/>ex:me dc:publisher "Wikipedia" .
+   
+Turtle provides a way to group three URIs to make a triple, and provides ways to abbreviate information. Filename extension is - .ttl
+
 
 ### <a name="Terse RDF triple language (TURTLE) notation">Terse RDF triple language (TURTLE) notation</a>
-Text
-!Terse RDF triple language (TURTLE) notation](images/Terse_RDF_triple_language_TURTLE_notation.png)
+Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using "triples", each of which consists of a subject, a predicate, and an object. Each of those items is expressed as a Web URI.
+
+Turtle provides a way to group three URIs to make a triple, and provides ways to abbreviate such information, for example by factoring out common portions of URIs. SPARQL, the query language for RDF, uses a syntax similar to Turtle for expressing query patterns.
+  
+Turtle provides a way to group three URIs to make a triple, and provides ways to abbreviate information. The example encodes an RDF graph made of three triples.
+
+* Filename extension - .ttl
+* Internet media type - text/turtle
+* Developed by - Dave Beckett
+* Type of format - Semantic Web
+* Container for - RDF data
+* Extended from - N-Triples
+
 
 ### <a name="SPARQL Protocol and RDF Query Language as protocol, data transmition schema">SPARQL Protocol and RDF Query Language as protocol, data transmition schema</a>
-Text
+SPARQL Protocol and RDF Query Language (SPARQL) is an acronym standing in for both the query language itself, and the protocol through which operators use it. Human operators use SPARQL to make queries and retrieve information from data that is stored in a Resource Description Framework (RDF) format. RDF is a standard designed by the W3C for the exchange of data over the internet.
+
+So, SPARQL Protocol and RDF Query Language (SPARQL) is a query language and protocol for RDF. SPARQL Protocol is described in two ways: first, as an abstract interface independent of any concrete realization, implementation, or binding to another protocol; second, as HTTP and SOAP bindings of this interface. SPARQL Protocol contains one interface, SparqlQuery, which in turn contains one operation, query. SPARQL Protocol is described abstractly with WSDL 2.0 in terms of a web service that implements its interface, types, faults, and operations, as well as by HTTP and SOAP bindings.
+
+Data transmition schema is shown on the figure below.
+
 ![SPARQL Protocol and RDF Query Language as protocol, data transmition schema](images/SPARQL_Protocol_and_RDF_Query_Language_as_protocol_data_transmition_schema.png)
 
-### <a name="SPARQL language, types of query">SPARQL language, types of query</a>
-Text
-![SPARQL language, types of query](images/SPARQL_language_types_of_query.png)
+In the case of queries that read data from the database, the SPARQL language specifies four different query variations for different purposes.
 
+The General scheme of SPARQL-SELECT query looks like this:
+
+<b>PREFIX</b>
+  <br>// prefix declarations - used to specify the abbreviations of universal resource identifiers (URIs).
+
+<b>FROM ...</b>
+  <br/>// the sources of the request to determine which RDF graphs are queried.
+
+<b>SELECT ...</b>
+  <br>// result composition - defines the data elements to be returned.
+
+<b>WHERE {...}</b>
+  <br>// query template - defines what to query from the dataset.
+
+<b>ORDER BY ...</b>
+  <br>// the modifiers of the query, restrict, regulate, transform the query results.
+
+
+### <a name="SPARQL language, types of query">SPARQL language, types of query</a>
+SPARQL is an RDF query language, that is, a semantic query language for databases, able to retrieve and manipulate data stored in Resource Description Framework (RDF) format.
+
+In the case of queries that read data from the database, the SPARQL language specifies four different query variations for different purposes:
+
+* SELECT query. Used to extract raw values from a SPARQL endpoint, the results are returned in a table format.
+* CONSTRUCT query. Used to extract information from the SPARQL endpoint and transform the results into valid RDF.
+* ASK query. Used to provide a simple True/False result for a query on a SPARQL endpoint.
+* DESCRIBE query. Used to extract an RDF graph from the SPARQL endpoint, the content of which is left to the endpoint to decide based on what the maintainer deems as useful information.
+
+Each of these query forms takes a WHERE block to restrict the query, although, in the case of the DESCRIBE query, the WHERE is optional.
+SPARQL query example that models the question "What are all the country capitals in Africa?":
+
+PREFIX ex: <http://example.com/exampleOntology#>
+<br/>SELECT ?capital ?country
+<br/>WHERE
+<br/>  {
+<br/>    ?x  ex:cityname ?capital ;
+<br/>          ex:isCapitalOf ?y .
+<br/>    ?y  ex:countryname ?country ;
+<br/>          ex:isInContinent  ex:Africa  .
+<br/>  }
+
+Variables are indicated by a "?" or "$" prefix. Bindings for ?capital and the ?country will be returned. The SPARQL query processor will search for sets of triples that match these four triple patterns, binding the variables in the query to the corresponding parts of each triple.
+
+Another example with using filter:
+
+SELECT distinct ? Name_foaf  ?Length  ?Rivers
+<br/>FROM <http://dbpedia.org>
+<br/>WHERE
+<br/>{
+<br/>?Rivers a dbo:River.
+<br/>?Rivers foaf:name ?Name_foaf.
+<br/>?Rivers dbo:length ?Length filter (?Length < 1000).
+<br/>}
+<br/>LIMIT 100
+
+From dbpedia.org this query will show 100 rivers which distance is shorter then 1000 km.
 
 
 ## MIT License
