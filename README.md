@@ -26,7 +26,7 @@ Experimental results (figures on this page):
 * <a href="#Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
 <br/>
-Theory (on this page - short descripting of each topic, ideal for preparation for the exam):
+Theory (on this page - short description of each topic, ideal for preparation for the exam):
 
 * <a href="#Semantic Web Stack">Semantic Web Stack</a>
 * <a href="#Uniform Resource Identifier">Uniform Resource Identifier</a>
