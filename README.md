@@ -43,10 +43,12 @@ Theory (on this page - short description of each topic, ideal for preparation fo
 
 ### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
+
 ![Result](images/Knowledge_Base_by_Cmap.png)
 
 
 ### <a name="Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
+
 ![Result](images/Knowledge_Base_by_EasyRDF_Converter.png)
 
 
