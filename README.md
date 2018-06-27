@@ -38,7 +38,7 @@ Theory (on this page - short description of each topic, ideal for preparation fo
 * <a href="#Terse RDF triple language (TURTLE) notation">Terse RDF triple language (TURTLE) notation</a>
 * <a href="#SPARQL Protocol and RDF Query Language as protocol, data transmition schema">SPARQL Protocol and RDF Query Language as protocol, data transmition schema</a>
 * <a href="#SPARQL language, types of query">SPARQL language, types of query</a>
-* <a href="Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
+* <a href="#Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
 
 <br/>
 
