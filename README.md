@@ -38,6 +38,7 @@ Theory (on this page - short description of each topic, ideal for preparation fo
 * <a href="#Terse RDF triple language (TURTLE) notation">Terse RDF triple language (TURTLE) notation</a>
 * <a href="#SPARQL Protocol and RDF Query Language as protocol, data transmition schema">SPARQL Protocol and RDF Query Language as protocol, data transmition schema</a>
 * <a href="#SPARQL language, types of query">SPARQL language, types of query</a>
+* <a href="Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
 
 <br/>
 
@@ -267,6 +268,32 @@ SELECT distinct ? Name_foaf  ?Length  ?Rivers
 <br/>LIMIT 100
 
 From dbpedia.org this query will show 100 rivers which distance is shorter then 1000 km.
+
+
+### <a name="Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
+The traditional knowledge pyramid illustrating the idea that facts processed in meaningful ways produce data, information, knowledge, and finally wisdom. Introduced pyramid can have five constructs:
+* data,
+* information,
+* knowledge,
+* understanding,
+* wisdom.
+
+
+Information is - data that is accurate and timely, specific and organized for a purpose, presented within a context that gives it meaning and relevance, and can lead to an increase in understanding and decrease in uncertainty. Information is valuable because it can affect behavior, a decision, or an outcome. For example, if a manager is told his company's profit decreased in the past month,
+he may use this information as a reason to cut financial spending for the next month. A piece of information is considered valueless if, after receiving it, things remain unchanged.
+
+Information is any entity or form that provides the answer to a question of some kind or resolves uncertainty. It is thus related to data and knowledge, as data represents values attributed to parameters, and knowledge signifies understanding of real things or abstract concepts. As it regards data, the information's existence is not necessarily coupled to an observer (it exists beyond
+an event horizon, for example), while in the case of knowledge, the information requires a cognitive observer.
+
+Information is conveyed either as the content of a message or through direct or indirect observation. That which is perceived can be construed as a message in its own right, and in that sense, information is always conveyed as the content of a message.
+Information can be encoded into various forms for transmission and interpretation (for example, information may be encoded into a sequence of signs, or transmitted via a sequence of signals). It can also be encrypted for safe storage and communication.
+
+Information reduces uncertainty. The uncertainty of an event is measured by its probability of occurrence and is inversely proportional to that. The more uncertain an event, the more information is required to resolve uncertainty of that event.
+
+Examples:
+* Each student's test score is one piece of data. The average score of a class or of the entire school is information that can be derived from the given data.
+* The history of temperature readings all over the world for the past 100 years is data. If this data is organized and analyzed to find that global temperature is rising, then that is information.
+* The number of visitors to a website by country is an example of data. Finding out that traffic from the U.S. is increasing while that from Australia is decreasing is meaningful information.
 
 
 ## MIT License
