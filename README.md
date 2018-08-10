@@ -45,7 +45,7 @@ Words on the line, referred to as linking words or linking phrases, specify the 
 <br/>
 
 ### MIT License
-### Copyright (c) 2017 Valentyn N Sichkar
+### Copyright (c) 2018 Valentyn N Sichkar
 ### github.com/sichkar-valentyn
 ### Reference to:
 Valentyn N Sichkar. Semantic Web languages OWL and RDF for knowledge representation // GitHub platform. DOI: 10.5281/zenodo.1317900
