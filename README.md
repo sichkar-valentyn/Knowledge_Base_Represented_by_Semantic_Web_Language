@@ -32,67 +32,6 @@ Experimental results (figures on this page):
 * <a href="#Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
 <br/>
-Theory (on this page - short description of each topic, ideal for preparation for the exam):
-
-* <a href="#Semantic Web Stack">Semantic Web Stack</a>
-* <a href="#Uniform Resource Identifier">Uniform Resource Identifier</a>
-* <a href="#Resource Description Framework RDF">Resource Description Framework RDF</a>
-* <a href="#Resource Description Framework Schema RDFS">Resource Description Framework Schema RDFS</a>
-* <a href="#Web ontology language">Web ontology language</a>
-* <a href="#Descriptive logic and its application">Descriptive logic and its application</a>
-* <a href="#Notations we can use in RDF">Notations we can use in RDF</a>
-* <a href="#Terse RDF triple language (TURTLE) notation">Terse RDF triple language (TURTLE) notation</a>
-* <a href="#SPARQL Protocol and RDF Query Language as protocol, data transmition schema">SPARQL Protocol and RDF Query Language as protocol, data transmition schema</a>
-* <a href="#SPARQL language, types of query">SPARQL language, types of query</a>
-* <a href="#Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
-
-<br/>
-
-### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
-Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
-
-![Result](images/Knowledge_Base_by_Cmap.png)
-
-
-### <a name="Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
-
-![Result](images/Knowledge_Base_by_EasyRDF_Converter.png)
-
-
-### <a name="Semantic Web Stack">Semantic Web Stack</a>
-
-
-### <a name="Uniform Resource Identifier">Uniform Resource Identifier</a>
-
-
-### <a name="Resource Description Framework RDF">Resource Description Framework RDF</a>
-
-
-### <a name="Resource Description Framework Schema RDFS">Resource Description Framework Schema RDFS</a>
-
-
-### <a name="Web ontology language">Web ontology language</a>
-
-
-### <a name="Descriptive logic and its application">Descriptive logic and its application</a>
-
-
-### <a name="Notations we can use in RDF">Notations we can use in RDF</a>
-
-
-### <a name="Terse RDF triple language (TURTLE) notation">Terse RDF triple language (TURTLE) notation</a>
-
-
-### <a name="SPARQL Protocol and RDF Query Language as protocol, data transmition schema">SPARQL Protocol and RDF Query Language as protocol, data transmition schema</a>
-
-
-### <a name="SPARQL language, types of query">SPARQL language, types of query</a>
-
-
-### <a name="Knowledge Pyramid and understanding the meaning of Information">Knowledge Pyramid and understanding the meaning of Information</a>
-
-
-<br/>
 
 ### MIT License
 ### Copyright (c) 2017 Valentyn N Sichkar
