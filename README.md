@@ -42,6 +42,8 @@ Words on the line, referred to as linking words or linking phrases, specify the 
 
 ![Result](images/Knowledge_Base_by_EasyRDF_Converter.png)
 
+Recommendation: download image and zoom it in, in order to see all details.
+
 <br/>
 
 ### MIT License
