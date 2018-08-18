@@ -33,10 +33,14 @@ Experimental results (figures on this page):
 * <a href="#Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 * <a href="#Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
+<br/>
+
 ### <a name="Concept map for organizing and representing knowledge">Concept map for organizing and representing knowledge</a>
 Words on the line, referred to as linking words or linking phrases, specify the relationship between the two concepts.
 
 ![Result](images/Knowledge_Base_by_Cmap.png)
+
+<br/>
 
 ### <a name="Graphical representation of knowledge from .owl file with EasyRDF Converter">Graphical representation of knowledge from .owl file with EasyRDF Converter</a>
 
