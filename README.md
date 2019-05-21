@@ -2,6 +2,9 @@
 Semantic Web languages OWL and RDF for Knowledge representation of Alarm-Warning System.
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317900.svg)](https://doi.org/10.5281/zenodo.1317900)
 
+### Courses:
+* Explore the course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
+
 ### Reference to:
 Valentyn N Sichkar. Semantic Web languages OWL and RDF for knowledge representation // GitHub platform. DOI: 10.5281/zenodo.1317900
 
